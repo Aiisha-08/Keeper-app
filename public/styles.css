@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", cursive;
+}
+body {
+  background-color: #eee;
+}
+header {
+  background-color: #f5ba13;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.3);
+}
+header h1 {
+  color: white;
+  font-weight: 300;
+  padding: 23px 0 23px 40px;
+}
+.note-container {
+  background-color: #fff;
+  width: 20%;
+  padding: 0 10px 8px 5px;
+  margin: 30px 15px 15px 33px;
+  border-radius: 10px;
+  font-family: "McLaren", cursive;
+  box-shadow: 0 2px 5px #ccc;
+  float: left;
+}
+.note-container h1 {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 9px 0 5px 9px;
+}
+.note-container p {
+  font-size: 1.1em;
+  padding: 0 0 14px 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.delete-btn {
+  background-color: transparent;
+  color: #f5ba13;
+  float: right;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  right: 6px;
+}
+.add-container {
+  width: 40%;
+  float: none;
+  margin: 20px auto;
+  height: 150px;
+  color: #ccc;
+  padding: 6px 8px 0 10px;
+}
+.input {
+  width: 100%;
+  display: block;
+  border: none;
+  font-family: "McLaren", cursive;
+  font-size: 1rem;
+  margin: 10px 5px;
+}
+.input:focus {
+  outline: none;
+  caret-color: red;
+}
+.add-container button {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: relative;
+  float: right;
+  top: 25px;
+  right: 15px;
+  background-color: #f5ba13;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  height: 2.3rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+footer p {
+  color: #ccc;
+}
